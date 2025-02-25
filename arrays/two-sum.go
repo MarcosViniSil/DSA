@@ -1,8 +1,6 @@
 package main 
 
 
-import ("fmt")
-
 // link problem leet code -> https://leetcode.com/problems/two-sum/
 
 // time complexity  -> O(n^2)
@@ -36,8 +34,3 @@ func twoSum(nums []int, target int) []int {
 	
 	return nil
 } 
-
-func main(){
-	nums := []int{3,2,4}
-	fmt.Println(twoSum(nums,6))
-}
