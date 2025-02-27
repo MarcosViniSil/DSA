@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // link problem leet code -> https://leetcode.com/problems/remove-duplicates-from-sorted-array
 
 // time complexity  -> O(n)
@@ -23,7 +21,4 @@ func RemoveDuplicates(nums []int) int {
 	return j
 }
 
-func main() {
-	nums := []int{}
-	fmt.Println(RemoveDuplicates(nums))
-}
+
