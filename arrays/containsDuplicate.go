@@ -1,7 +1,11 @@
 package main
+/*
 
-import ("fmt")
+link problem leetcode -> https://leetcode.com/problems/contains-duplicate/
+time complexity  -> O(n)
+space complexity -> O(n)
 
+*/
 func containsDuplicate(nums []int) bool {
 	if len(nums) == 0 || len(nums) == 1{
 		return false
@@ -19,8 +23,3 @@ func containsDuplicate(nums []int) bool {
 }
 
 
-
-func main() {
-    prices := []int{3,3}
-	fmt.Println(containsDuplicate(prices))
-}

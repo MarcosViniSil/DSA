@@ -1,9 +1,13 @@
 package main
 
-// link problem leet code -> https://leetcode.com/problems/remove-duplicates-from-sorted-array
 
-// time complexity  -> O(n)
-// space complexity -> O(1)
+/*
+
+link problem leetcode -> https://leetcode.com/problems/remove-duplicates-from-sorted-array
+time complexity  -> O(n)
+space complexity -> O(1)
+
+*/
 
 func RemoveDuplicates(nums []int) int {
 	if len(nums) == 0{

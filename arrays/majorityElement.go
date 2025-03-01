@@ -1,6 +1,14 @@
 package main
 
 
+/*
+
+link problem leetcode -> https://leetcode.com/problems/majority-element
+time complexity  -> O(n)
+space complexity -> O(n)
+
+*/
+
 func majorityElement(nums []int) int {
     if len(nums) == 1{
         return nums[0]
