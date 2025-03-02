@@ -14,16 +14,12 @@ func twoSum(nums []int, target int) []int {
 		mymap[v] = i
 	}
 
-	
 	for i, v := range nums {
 		diff := target - v
 		if va, ok := mymap[diff]; ok && va != i {
-			return []int{va,i}
+			return []int{va, i}
 		}
 	}
 
-	
-
 	return nil
-} 
-
+}

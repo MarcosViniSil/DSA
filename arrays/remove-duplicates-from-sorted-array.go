@@ -1,6 +1,5 @@
 package main
 
-
 /*
 
 link problem leetcode -> https://leetcode.com/problems/remove-duplicates-from-sorted-array
@@ -10,7 +9,7 @@ space complexity -> O(1)
 */
 
 func RemoveDuplicates(nums []int) int {
-	if len(nums) == 0{
+	if len(nums) == 0 {
 		return 0
 	}
 	j := 1
@@ -24,5 +23,3 @@ func RemoveDuplicates(nums []int) int {
 
 	return j
 }
-
-

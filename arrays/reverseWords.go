@@ -28,5 +28,3 @@ func invertString(v []rune, left, right int) {
 		right--
 	}
 }
-
-

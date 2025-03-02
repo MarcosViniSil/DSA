@@ -1,6 +1,5 @@
 package main
 
-import "fmt"
 
 func abs(x int) int {
 	if x < 0 {
@@ -9,6 +8,7 @@ func abs(x int) int {
 		return x
 	}
 }
+
 /*
 
 link problem leetcode -> https://leetcode.com/problems/contains-duplicate-ii
@@ -28,7 +28,7 @@ func containsNearbyDuplicate(nums []int, k int) bool {
 		if value, exists := mymap[v]; exists {
 			if abs(value-i) <= k {
 				return true
-			}else{
+			} else {
 				mymap[v] = i
 			}
 		} else {
@@ -39,7 +39,4 @@ func containsNearbyDuplicate(nums []int, k int) bool {
 	return false
 }
 
-func main() {
-	v := []int{1,2,3,1,2,3}
-	fmt.Println(containsNearbyDuplicate(v, 2))
-}
+
