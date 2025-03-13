@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 
 /*
 
@@ -11,7 +9,7 @@ time complexity  -> O(k + v)
 where k is the length of nums1 and v nums2
 
 space complexity -> O(k)
-k is the length of nums1, because the map, in the worst case, has the same lenght that nums1
+k is the length of nums1, because the map, in the worst case has the same lenght that nums1
 
 */
 
@@ -33,8 +31,3 @@ func intersection(nums1 []int, nums2 []int) []int {
 }
 
 
-func main() {
-	v := []int{4,9,5}
-	k := []int{9,4,9,8,4}
-	fmt.Println(intersection(v, k))
-}
