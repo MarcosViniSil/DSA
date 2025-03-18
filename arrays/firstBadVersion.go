@@ -8,7 +8,9 @@ time complexity  -> O(log(n))
 space complexity -> O(1)
 
 */
-func isBadVersion(version int) bool;
+func isBadVersion(version int) bool{
+	return true
+}
 
 func firstBadVersion(n int) int {
 	l,r := 1,n
