@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -43,14 +42,4 @@ func max(a, b int) int {
 	}
 }
 
-func main() {
-	nums := [][]int{{1, 4}, {0, 2}, {3, 5}}
-	fmt.Println(merge(nums))
-}
 
-/*
-2 6
-8 10
---------------------------------
-^
-*/
