@@ -3,7 +3,7 @@ package main
 
 /*
 
-link problem leetcode -> https://leetcode.com/problems/spiral-matrix/
+link leetcode problem -> https://leetcode.com/problems/spiral-matrix/
 
 time complexity  -> O(k)
 space complexity -> O(k)

@@ -2,7 +2,7 @@ package main
 
 /*
 
-link problem leetcode -> https://leetcode.com/problems/two-sum/
+link leetcode problem -> https://leetcode.com/problems/two-sum/
 time complexity  -> O(n)
 space complexity -> O(1)
 

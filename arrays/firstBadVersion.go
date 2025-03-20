@@ -3,7 +3,7 @@ package main
 
 /*
 
-link problem leetcode -> https://leetcode.com/problems/first-bad-version
+link leetcode problem -> https://leetcode.com/problems/first-bad-version
 time complexity  -> O(log(n))
 space complexity -> O(1)
 

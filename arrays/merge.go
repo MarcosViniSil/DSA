@@ -6,7 +6,7 @@ import (
 
 /*
 
-link problem leetcode -> https://leetcode.com/problems/merge-intervals/
+link leetcode problem -> https://leetcode.com/problems/merge-intervals/
 time complexity  -> O(n.log(n))
 space complexity -> O(n)
 

@@ -3,7 +3,7 @@ package main
 
 /*
 
-link problem leetcode -> https://leetcode.com/problems/intersection-of-two-arrays
+link leetcode problem -> https://leetcode.com/problems/intersection-of-two-arrays
 
 time complexity  -> O(k + v)
 where k is the length of nums1 and v nums2

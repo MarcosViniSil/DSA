@@ -2,7 +2,7 @@ package main
 
 /*
 
-link problem leetcode -> https://leetcode.com/problems/product-of-array-except-self
+link leetcode problem -> https://leetcode.com/problems/product-of-array-except-self
 time complexity  -> O(n)
 space complexity -> O(1)
 

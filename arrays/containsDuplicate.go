@@ -2,7 +2,7 @@ package main
 
 /*
 
-link problem leetcode -> https://leetcode.com/problems/contains-duplicate/
+link leetcode problem -> https://leetcode.com/problems/contains-duplicate/
 time complexity  -> O(n)
 space complexity -> O(n)
 

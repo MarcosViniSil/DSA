@@ -2,7 +2,7 @@ package main
 
 /*
 
-link problem leetcode -> https://leetcode.com/problems/majority-element
+link leetcode problem -> https://leetcode.com/problems/majority-element
 
 
 Sum of Gauss has the following formula:

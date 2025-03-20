@@ -11,7 +11,7 @@ func abs(x int) int {
 
 /*
 
-link problem leetcode -> https://leetcode.com/problems/contains-duplicate-ii
+link leetcode problem -> https://leetcode.com/problems/contains-duplicate-ii
 time complexity  -> O(n)
 space complexity -> O(n)
 

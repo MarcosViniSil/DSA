@@ -3,10 +3,10 @@ package main
 import "fmt"
 /*
 
-link problem leetcode -> https://leetcode.com/problems/rotate-image/
+link leetcode problem -> https://leetcode.com/problems/rotate-image/
 
 time complexity  -> O(k^2)
-k = m x n, where m is equal of number of rows and n equal number of columns
+k = m x n, where m is the number of rows and n number of columns
 
 space complexity -> O(1)
 

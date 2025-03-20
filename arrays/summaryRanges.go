@@ -6,7 +6,7 @@ import (
 )
 /*
 
-link problem leetcode -> https://leetcode.com/problems/summary-ranges/
+link leetcode problem -> https://leetcode.com/problems/summary-ranges/
 
 time complexity  -> O(n)
 space complexity -> O(n)

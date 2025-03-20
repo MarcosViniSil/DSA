@@ -6,7 +6,7 @@ import (
 
 /*
 
-link problem leetcode -> https://leetcode.com/problems/longest-common-prefix
+link leetcode problem -> https://leetcode.com/problems/longest-common-prefix
 time complexity  -> O(n x m)
 Where, n is the lenght of the lower string and m is the lenght of strs
 space complexity -> O(1)

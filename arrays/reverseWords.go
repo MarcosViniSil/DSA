@@ -2,7 +2,7 @@ package main
 
 /*
 
-link problem leetcode -> https://leetcode.com/problems/reverse-words-in-a-string-iii
+link leetcode problem -> https://leetcode.com/problems/reverse-words-in-a-string-iii
 time complexity  -> O(n)
 space complexity -> O(n)
 
