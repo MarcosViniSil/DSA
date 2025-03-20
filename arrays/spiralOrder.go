@@ -1,6 +1,5 @@
 package main
 
-import "fmt"
 
 /*
 
@@ -84,7 +83,4 @@ func logicRightToLeft(matrix [][]int ,result *[]int,arrayRight int){
 	}	
 }
 
-func main() {
-	nums := [][]int{{1}}
-	fmt.Println(spiralOrder(nums))
-}
+
