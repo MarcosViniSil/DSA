@@ -1,15 +1,14 @@
 package main
 
-import "fmt"
-
 /*
 
 link leetcode problem -> https://leetcode.com/problems/jewels-and-stones
 
-time complexity  -> O(n + m)
-where n is the length of jewels and m length of stones
+time complexity  -> O(n)
+where n is the length of stones
 
-space complexity -> O(n)
+space complexity -> O(v)
+where v is the length of jewels
 
 */
 func numJewelsInStones(jewels string, stones string) int {
@@ -27,9 +26,3 @@ func numJewelsInStones(jewels string, stones string) int {
 	return result
 }
 
-func main() {
-	jewels := "z"
-	stones := "ZZ"
-
-	fmt.Println(numJewelsInStones(jewels, stones))
-}
