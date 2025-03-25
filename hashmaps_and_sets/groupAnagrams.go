@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math/big"
 )
 
@@ -14,6 +13,7 @@ time complexity  -> O(n * k)
 space complexity -> O(n * k)
 
 where n is the length of strs and k length of strs[i]
+
 */
 
 func groupAnagrams(strs []string) [][]string {
@@ -56,11 +56,6 @@ func groupAnagrams(strs []string) [][]string {
 
 
 
-
-func main() {
-	strs := []string{"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"}
-	fmt.Println(groupAnagrams(strs))
-}
 
 /*
 97 -> a
