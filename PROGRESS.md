@@ -14,6 +14,6 @@
 
 | EMOJI    | DESCRIPTION 
 | :--------:| :-------: 
-| 🤩       |   SOLVED  |
+| 😀       |   SOLVED  |
 | 🤔       |   IN_PROGRESS  |
 | ☹️       |   COULDN'T_SOLVE  |
