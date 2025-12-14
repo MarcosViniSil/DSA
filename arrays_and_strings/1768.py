@@ -1,4 +1,4 @@
-#Link problem: https://leetcode.com/problems/merge-strings-alternately/submissions/1854149997/
+#Link problem: https://leetcode.com/problems/merge-strings-alternately/
 #Time complexity: O(N), WHERE N = len(word1) + len(word2)
 #Space complexity: O(N), WHERE N = len(word1) + len(word2)
 
