@@ -14,6 +14,7 @@
 |  17/12/2025 |  😀  | Summary Ranges | Solved without help, but after analyze other solutions i noticed that my question in the code was: "Where the range ends", and in the solutions the question was: "What is the range?". My question in the code implies that at the end of the loop i couldn't get the last range, because it doesn't finish yet and I need to check outside loop the last range, implies a double check because the question was: "where ends" and not "what is"|
 |  18/12/2025 |  😀  | Product of Array Except Self | Solved with help, I had difficult to visualize the logic of left element X right element.The trick was using a variable start at 1, so the multiplication occurred with the elements, except the actual, making this for left and right, at the end, multiplying the left by the right |
 |  19/12/2025 |  😀  |Merge Intervals |Solved without help, and in this case my solution isn't that bad at all, in general, it's good and my logic was similar to other solutions that had a good time and space complexity|
+|  19/12/2025 |  😀  |Rotate Image |Solved without help,and in this case I had the idea to transpose the matrix and swap the elements from left to right, which works, and had a good time and space complexity|
 <center>
 
 
