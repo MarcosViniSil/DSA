@@ -24,7 +24,7 @@ class Solution:
         return result
 
 solution = Solution()
-print(solution.merge_intervals([[1,3],[2,6],[8,10],[15,18]]))
+print(solution.merge_intervals([[1, 3], [2, 5], [6, 9]]))
 print(solution.merge_intervals([[1,4],[4,5]]))
 print(solution.merge_intervals([[4,7],[1,4]]))
 print(solution.merge_intervals([[1,4],[2,3]]))
