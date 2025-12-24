@@ -17,7 +17,8 @@
 |  20/12/2025 |  😀  |Rotate Image |Solved without help,and in this case I had the idea to transpose the matrix and swap the elements from left to right, which works, and had a good time and space complexity|
 |  21/12/2025 |  🤔  |Insert Interval |I could think an idea but the algorithm is still confusing|
 |  22/12/2025 |  😀  |Insert Interval |Solved with help(hint from leetcode). The idea was using a binary search for find the correct index to insert the new interval, and after that, combine overlapping positions, like the problem 'Merge Intervals'|
-|  23/12/2025 |  😀  |Jewels and Stones |Solved without help.The idea was to storage stones characters count and after, get sum this quantity when the character i from jewels exists on the count |
+|  23/12/2025 |  😀  |Jewels and Stones |Solved without help.The idea was to storage stones characters count and after, get sum  where ith character from jewels exists into count |
+|  24/12/2025 |  😀  |Contains Duplicate |Solved without help and was simple solution, just count the occurrences of each number, and if whatever number have the count greater or equals than two, return true, otherwise, return false |
 <center>
 
 
