@@ -20,6 +20,7 @@
 |  23/12/2025 |  😀  |Jewels and Stones |Solved without help.The idea was to storage stones characters count and after, get sum  where ith character from jewels exists into count |
 |  24/12/2025 |  😀  |Contains Duplicate |Solved without help and was simple solution, just count the occurrences of each number, and if whatever number have the count greater or equals than two, return true, otherwise, return false |
 |  24/12/2025 |  😀  |Ransom Note |Solved without help and it was similar to Contains Duplicate, in summary, count the letters from magazine and verify whether the letters count is equal or greater than ransomNote letters count |
+|  25/12/2025 |  😀  |Valid Anagram |Solved without help and to achieve constant space was used the array of alphabet positions, but, in general, i could think about a solution |
 <center>
 
 
