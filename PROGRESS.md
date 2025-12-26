@@ -23,6 +23,7 @@
 |  25/12/2025 |  😀  |Valid Anagram |Solved without help and to achieve constant space was used the array of alphabet positions, but, in general, i could think about a solution |
 |  26/12/2025 |  😀  |Maximum Number of Balloons |Solved without help.In this case, I consider that ballon is a generic word,not fixed, so my solution consider any other word, and not only balloon, implying in the solution of `Rearrange Characters to Make Target String` as well  |
 |  26/12/2025 |  😀  |Two Sum |Solved without help. The trick was to use a dictionary to track the number index in the array, and after, verify whether the number necessary to sum exists on the dictionary, if so, return the current index and the index storage on the dictionary, if not, continue to search until find the number necessary  |
+|  26/12/2025 |  😀  |Two Sum II - Input Array Is Sorted |Solved with help.I needed watch some videos and read some solutions to understand the idea of move left and right, depending of the current sum, but at the end, i could understand the solution  |
 <center>
 
 
