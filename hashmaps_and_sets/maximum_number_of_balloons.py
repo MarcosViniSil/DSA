@@ -1,6 +1,6 @@
 #Link to problem: https://leetcode.com/problems/maximum-number-of-balloons/
-#Time complexity:
-#Space complexity: 
+#Time complexity: O(n)
+#Space complexity: O(1)
                        
 class Solution:
     def maximum_number_of_balloons(self,text:str) -> int:
@@ -29,7 +29,7 @@ class Solution:
                     return res
                 letters_count[idx] -= word_count[idx]
             res += 1
-        
+
                                         
 solution = Solution()
 print(solution.maximum_number_of_balloons("nlaebolko"))

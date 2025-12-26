@@ -21,7 +21,8 @@
 |  24/12/2025 |  😀  |Contains Duplicate |Solved without help and was simple solution, just count the occurrences of each number, and if whatever number have the count greater or equals than two, return true, otherwise, return false |
 |  24/12/2025 |  😀  |Ransom Note |Solved without help and it was similar to Contains Duplicate, in summary, count the letters from magazine and verify whether the letters count is equal or greater than ransomNote letters count |
 |  25/12/2025 |  😀  |Valid Anagram |Solved without help and to achieve constant space was used the array of alphabet positions, but, in general, i could think about a solution |
-|  26/12/2025 |  😀  |Maximum Number of Balloons |Solved without help.In this case I consider that ballon is a generic word,not fixed, so my solution consider any other word, and not only balloon, implying in the solution of `Rearrange Characters to Make Target String` as well  |
+|  26/12/2025 |  😀  |Maximum Number of Balloons |Solved without help.In this case, I consider that ballon is a generic word,not fixed, so my solution consider any other word, and not only balloon, implying in the solution of `Rearrange Characters to Make Target String` as well  |
+|  26/12/2025 |  😀  |Two Sum |Solved without help. The trick was to use a dictionary to track the number index in the array, and after, verify whether the number necessary to sum exists on the dictionary, if so, return the current index and the index storage on the dictionary, if not, continue to search until find the number necessary  |
 <center>
 
 
