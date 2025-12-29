@@ -26,6 +26,7 @@
 |  26/12/2025 |  😀  |Two Sum II - Input Array Is Sorted |Solved with help.I needed watch some videos and read some solutions to understand the idea of move left and right, depending of the current sum, but at the end, i could understand the solution  |
 |  27/12/2025 |  😀  |Valid Sudoku |Solved with help.I needed help to map from a grip position to a block between 0 and 2, i was using `module( % 3)` operator, but this, give me the position of value inside a grid, and what i needed was a formula to map a value to a grid, to achieve this, is necessary use `// 3`, to give me the block position  |
 |  28/12/2025 |  😀  |Group Anagrams |Solved with help. I needed help to convert list to string, and use this string as key to dictionary.I noticed that i could used a tuple, rather than a list, with tuple is faster, but consume more memory, in contrast, the list use less memory but the time is greater, because it's need to loop over the whole list, converting each number to string and appending into a new string.But in the problem, the use of tuple would be preferable, to less time complexity in general  |
+|  29/12/2025 |  😀  |Majority Element |Solved without help.In this case the idea was using a counter for each number frequency and at the end, the remain number is the number that most appear  |
 <center>
 
 
