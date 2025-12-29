@@ -18,16 +18,16 @@ class Solution:
             for j in range(len(board[0])):
                 if board[i][j] == "." or board[j][i] == ".":
                     continue
-
-                if row_count.get(board[i][j]) is not None:
+                
+                if row_count.get(board[i][j]) is not None and board[i][j] != ".":
                     return False
                 row_count[board[i][j]] = 1
 
-                if column_count.get(board[j][i]) is not None:
+                if column_count.get(board[j][i]) is not None and board[j][i] != ".":
                     return False
                 column_count[board[j][i]] = 1
 
-                if grid_count[j // 3].get(board[i][j]) is not None:
+                if grid_count[j // 3].get(board[i][j]) is not None and board[i][j] != ".":
                     return False
                 grid_count[j // 3][board[i][j]] = 1
 
