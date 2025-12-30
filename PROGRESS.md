@@ -27,7 +27,8 @@
 |  27/12/2025 |  😀  |Valid Sudoku |Solved with help.I needed help to map from a grip position to a block between 0 and 2, i was using `module( % 3)` operator, but this, give me the position of value inside a grid, and what i needed was a formula to map a value to a grid, to achieve this, is necessary use `// 3`, to give me the block position  |
 |  28/12/2025 |  😀  |Group Anagrams |Solved with help. I needed help to convert list to string, and use this string as key to dictionary.I noticed that i could used a tuple, rather than a list, with tuple is faster, but consume more memory, in contrast, the list use less memory but the time is greater, because it's need to loop over the whole list, converting each number to string and appending into a new string.But in the problem, the use of tuple would be preferable, to less time complexity in general  |
 |  29/12/2025 |  😀  |Majority Element |Solved without help.In this case the idea was using a counter for each number frequency and at the end, the remain number is the number that most appear  |
-|  29/12/2025 |  😀  |Longest Consecutive Sequence |Solved without help.Solved but i noticed after seeing other solutions that i cloud've used set, rather than dic, to improve time complexity, and the logic to search to sequence begin could be improved, checking at the beginning of the loop if num - 1 is not in the set, if true, the begin was found, if false, continue search for the begin, avoiding if statements and while unnecessary, like my code does,improving the time complexity.  |
+|  29/12/2025 |  😀  |Longest Consecutive Sequence |Solved with help.Solved but i noticed after seeing other solutions that i cloud've used set, rather than dic, to improve time complexity, and the logic to search to sequence begin could be improved, checking at the beginning of the loop if num - 1 is not in the set, if true, the begin was found, if false, continue search for the begin, avoiding if statements and while unnecessary, like my code does,improving the time complexity.  |
+|  30/12/2025 |  😀  |Squares of a Sorted Array |Solved without help.In this question, understand that the array is sorted is crucial, and move the pointers depending on the comparison between current numbers.  |
 <center>
 
 
@@ -35,6 +36,6 @@
 
 | EMOJI    | DESCRIPTION 
 | :--------:| :-------: 
-| 😀       |   Majority Element  |
+| 😀       |   SOLVED  |
 | 🤔       |   IN_PROGRESS  |
 | ☹️       |   COULDN'T_SOLVE  |
