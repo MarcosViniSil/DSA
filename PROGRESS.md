@@ -30,6 +30,7 @@
 |  29/12/2025 |  😀  |Longest Consecutive Sequence |Solved with help.Solved but i noticed after seeing other solutions that i cloud've used set, rather than dic, to improve time complexity, and the logic to search to sequence begin could be improved, checking at the beginning of the loop if num - 1 is not in the set, if true, the begin was found, if false, continue search for the begin, avoiding if statements and while unnecessary, like my code does,improving the time complexity.  |
 |  30/12/2025 |  😀  |Squares of a Sorted Array |Solved without help.In this question, understand that the array is sorted is crucial, and move the pointers depending on the comparison between current numbers.  |
 |  30/12/2025 |  😀  |Reverse String |Solved without help.The main idea was to visualize the two pointers technique and use that to swap the string positions |
+|  31/12/2025 |  😀  |Valid Palindrome |Solved without help.But i noticed that could've been solved with constant time, by verifying if the current characters is alphanumeric, if so, compare them, if not, move the left pointer by one positive if the left element is not alphanumeric, and move right pointer by one negative if the right element is not alphanumeric.Making this, the space will be constant |
 <center>
 
 
