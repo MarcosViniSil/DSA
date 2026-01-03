@@ -34,6 +34,7 @@
 |  31/12/2025 |  😀  |3Sum |Solved without help.But the time and space complexity was not good, to solve this i could've been use while to verify equals elements, rather than set, reducing lookups and improving the time complexity |
 |  01/01/2026 |  😀  |Container With Most Water |Solved without help.And i'm very proud of myself, because i could make an algorithm efficient in terms of space and time complexity.I use this picture to construct the logic,[check it out](./assets/images/11_leetcode.svg)  |
 |  02/01/2026 |  ☹️  |Trapping Rain Water | This problem is very hard and i couldn't think anything work, i need to search for help  |
+|  03/01/2026 |  😀  |Trapping Rain Water | I watch some videos and read some code and i understood the solution, the problem is hard but the solution using arrays to track the left and right max value was good and i could understand  |
 <center>
 
 
