@@ -32,7 +32,8 @@
 |  30/12/2025 |  😀  |Reverse String |Solved without help.The main idea was to visualize the two pointers technique and use that to swap the string positions |
 |  31/12/2025 |  😀  |Valid Palindrome |Solved without help.But i noticed that could've been solved with constant time, by verifying if the current characters is alphanumeric, if so, compare them, if not, move the left pointer by one positive if the left element is not alphanumeric, and move right pointer by one negative if the right element is not alphanumeric.Making this, the space will be constant |
 |  31/12/2025 |  😀  |3Sum |Solved without help.But the time and space complexity was not good, to solve this i could've been use while to verify equals elements, rather than set, reducing lookups and improving the time complexity |
-|  01/01/2025 |  😀  |Container With Most Water |Solved without help.And i'm very proud of myself, because i could make an algorithm efficient in terms of space and time complexity.I use this picture to construct the logic,[check it out](./assets/images/11_leetcode.svg)  |
+|  01/01/2026 |  😀  |Container With Most Water |Solved without help.And i'm very proud of myself, because i could make an algorithm efficient in terms of space and time complexity.I use this picture to construct the logic,[check it out](./assets/images/11_leetcode.svg)  |
+|  02/01/2026 |  ☹️  |Trapping Rain Water | This problem is very hard and i couldn't think anything work, i need to search for help  |
 <center>
 
 

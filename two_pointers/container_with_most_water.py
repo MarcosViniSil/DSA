@@ -1,6 +1,6 @@
 #Link to problem: https://leetcode.com/problems/container-with-most-water/description/
-#Time complexity:
-#Space complexity: 
+#Time complexity: O(n)
+#Space complexity: O(1)
                        
 class Solution:
     def container_with_most_water(self,height:list[int]) -> int:
