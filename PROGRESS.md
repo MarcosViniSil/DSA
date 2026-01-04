@@ -36,6 +36,7 @@
 |  02/01/2026 |  ☹️  |Trapping Rain Water | This problem is very hard and i couldn't think anything work, i need to search for help  |
 |  03/01/2026 |  😀  |Trapping Rain Water | I watch some videos and read some code and i understood the solution, the problem is hard but the solution using arrays to track the left and right max value was good and i could understand  |
 |  03/01/2026 |  😀  |Baseball Game | Solved with help because i was getting the error of not converting a negative number to int because the function `isdigit()` return false if the number contains `-`, to resolve this i needed to use `lstrip("-")` to remove the `-` signal and after, use `isdigit()` to convert the number correctly  |
+|  04/01/2026 |  😀  |Valid Parentheses | Solved with help and the trick was: when find a closing parentheses, the top from the stack needs to be the open parentheses of the same type of close parentheses  |
 <center>
 
 
