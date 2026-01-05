@@ -38,6 +38,7 @@
 |  03/01/2026 |  😀  |Baseball Game | Solved with help because i was getting the error of not converting a negative number to int because the function `isdigit()` return false if the number contains `-`, to resolve this i needed to use `lstrip("-")` to remove the `-` signal and after, use `isdigit()` to convert the number correctly  |
 |  04/01/2026 |  😀  |Valid Parentheses | Solved with help and the trick was: when find a closing parentheses, the top from the stack needs to be the open parentheses of the same type of close parentheses  |
 |  04/01/2026 |  😀  |Evaluate Reverse Polish Notation | Solved without help, and in this case, draw the stack and visualize the elements and its positions was essential to come up with the solution  |
+|  05/01/2026 |  😀  |Next Greater Element I | Solved with help, the algorithm correctly, using O(len(nums1) + len(nums2)) is pretty complicated , so i search for help|
 <center>
 
 
