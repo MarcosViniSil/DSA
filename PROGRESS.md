@@ -39,6 +39,7 @@
 |  04/01/2026 |  😀  |Valid Parentheses | Solved with help and the trick was: when find a closing parentheses, the top from the stack needs to be the open parentheses of the same type of close parentheses  |
 |  04/01/2026 |  😀  |Evaluate Reverse Polish Notation | Solved without help, and in this case, draw the stack and visualize the elements and its positions was essential to come up with the solution  |
 |  05/01/2026 |  😀  |Next Greater Element I | Solved with help, the algorithm correctly, using O(len(nums1) + len(nums2)) is pretty complicated , so i search for help|
+|  05/01/2026 |  😀  |Daily Temperatures | Solved with help. I used the problem `Next Greater Element I` as start and the idea of travel throughout the reverse list and store the descending order of the elements inside a stack to get the distance from the closest greater element|
 <center>
 
 
