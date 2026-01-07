@@ -42,7 +42,8 @@ VALID_RETURN_TYPES = {
     "tuple[bool, int]",
     "tuple[bool, str]",
     "tuple[bool, float]",
-    "tuple[bool, bool]"
+    "tuple[bool, bool]",
+    "Optional[ListNode]"
 }
 
 

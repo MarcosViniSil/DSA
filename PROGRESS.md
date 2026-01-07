@@ -41,6 +41,7 @@
 |  05/01/2026 |  😀  |Next Greater Element I | Solved with help, the algorithm correctly, using O(len(nums1) + len(nums2)) is pretty complicated , so i search for help|
 |  05/01/2026 |  😀  |Daily Temperatures | Solved with help. I used the problem `Next Greater Element I` as start and the idea of travel throughout the reverse list and store the descending order of the elements inside a stack to get the distance from the closest greater element|
 |  06/01/2026 |  😀  |Min Stack | Solved with help. I needed help to understand how to track the minimum value as the stack grows, to solved, i use a tuple, that maintain the actual value and the minimum value until the last seen value inserted on the stack, this solution has a disadvantage that the minimum value is replicated multiple times between values inside the stack.To resolve this question of multiple equals values, is to use a stack auxiliary that maintain only one minimum value at the top of the stack, reducing the memory needed|
+|  07/01/2026 |  😀  |Remove Duplicates from Sorted List | Solved without help.And in thie case, after seen other solutions, it could've been implemented using only one variable, and using this variable, adjust the pointers to capture where the equals numbers finished and updating the next pointer |
 <center>
 
 
