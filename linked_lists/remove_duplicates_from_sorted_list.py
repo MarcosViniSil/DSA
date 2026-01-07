@@ -3,6 +3,8 @@
 #Space complexity: O(1)
 
 from typing import Optional
+from help.linked_list_definition import ListNode
+from help.seed_linked_list import seed, print_linked_list
 
 class ListNode:
      def __init__(self, val=0, next=None):
@@ -31,5 +33,11 @@ class Solution:
 
                                         
 solution = Solution()
-print(solution.remove_duplicates_from_sorted_list())
-print(solution.remove_duplicates_from_sorted_list())
+head = seed([1,1,2])
+head_after = solution.remove_duplicates_from_sorted_list(head)
+print_linked_list(head_after)
+
+
+head = seed([1,1,2,3,3])
+head_after = solution.remove_duplicates_from_sorted_list(head)
+print_linked_list(head_after)
