@@ -103,7 +103,7 @@ solution = Solution()
 head = seed()
 head_after = solution.$methodName(head)
 print_linked_list(head_after)
-
+    
 head = seed()
 head_after = solution.$methodName(head)
 print_linked_list(head_after)

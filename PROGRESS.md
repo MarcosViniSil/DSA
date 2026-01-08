@@ -43,6 +43,7 @@
 |  06/01/2026 |  😀  |Min Stack | Solved with help. I needed help to understand how to track the minimum value as the stack grows, to solved, i use a tuple, that maintain the actual value and the minimum value until the last seen value inserted on the stack, this solution has a disadvantage that the minimum value is replicated multiple times between values inside the stack.To resolve this question of multiple equals values, is to use a stack auxiliary that maintain only one minimum value at the top of the stack, reducing the memory needed|
 |  07/01/2026 |  😀  |Remove Duplicates from Sorted List | Solved without help.And in thie case, after seen other solutions, it could've been implemented using only one variable, and using this variable, adjust the pointers to capture where the equals numbers finished and updating the next pointer |
 |  07/01/2026 |  😀  |Reverse Linked List | Solved without help, and in this case, my solution was pretty the same as the others that I saw.To solve this question, the key was to draw and see the pointers where each needed to be |
+|  08/01/2026 |  😀  |Merge Two Sorted Lists | Solved without help.The trick here was to maintain a second list at the head of the first list as response, and at the end, return the next of the list aux, that pointer to the head of the merged lists |
 <center>
 
 
