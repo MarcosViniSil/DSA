@@ -45,6 +45,7 @@
 |  07/01/2026 |  😀  |Reverse Linked List | Solved without help, and in this case, my solution was pretty the same as the others that I saw.To solve this question, the key was to draw and see the pointers where each needed to be |
 |  08/01/2026 |  😀  |Merge Two Sorted Lists | Solved without help.The trick here was to maintain a second list at the head of the first list as response, and at the end, return the next of the list aux, that pointer to the head of the merged lists |
 |  08/01/2026 |  😀  |Linked List Cycle | Solved without help.The main idea was to compare the node address and not the value, because could have equals numbers.And the two pointers, slow and fast, was the trick, if has a cycle, the fast pointer will reach the slow pointer, comparing by address |
+|  09/01/2026 |  😀  |Middle of the Linked List | Solved without help, and in this case, draw the slow and fast pointer was essencial to visualize that slow pointer, at the end of the loop, containing the middle of the linked list |
 <center>
 
 
