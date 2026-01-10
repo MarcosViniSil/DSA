@@ -46,7 +46,8 @@ VALID_RETURN_TYPES = {
     "tuple[bool, str]",
     "tuple[bool, float]",
     "tuple[bool, bool]",
-    "Optional[ListNode]"
+    "Optional[ListNode]",
+    "Optional[Node]"
 }
 
 def is_valid_return_type(type_str: str) -> bool:
