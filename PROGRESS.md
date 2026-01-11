@@ -47,6 +47,7 @@
 |  08/01/2026 |  😀  |Linked List Cycle | Solved without help.The main idea was to compare the node address and not the value, because could have equals numbers.And the two pointers, slow and fast, was the trick, if has a cycle, the fast pointer will reach the slow pointer, comparing by address |
 |  09/01/2026 |  😀  |Middle of the Linked List | Solved without help, and in this case, draw the slow and fast pointer was essential to visualize that slow pointer, at the end of the loop, containing the middle of the linked list |
 |  10/01/2026 |  😀  |Remove Nth Node From End of List | Solved without help, draw was the key to visualize the position to stop the pointer and the case when the sum result in negative, indicating that the position requested was the first|
+|  11/01/2026 |  😀  |Copy List with Random Pointer | Solved with help.I could understand the problem, and think in a solution using the hashmap to storage (address older node --> address new node) but i couldn't see the solution to storage all the nodes and after that, add the pointer next and random, I tried to add the pointers in one pass, but i understood the solution|
 <center>
 
 

@@ -1,5 +1,6 @@
 
 from .linked_list_definition import ListNode
+from .linked_list_definition import Node
 
 def seed(values:list[int]) -> ListNode:
     linked_list = ListNode()
