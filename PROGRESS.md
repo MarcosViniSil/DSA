@@ -50,6 +50,7 @@
 |  11/01/2026 |  😀  |Copy List with Random Pointer | Solved with help.I could understand the problem, and think in a solution using the hashmap to storage (address older node --> address new node) but i couldn't see the solution to storage all the nodes and after that, add the pointer next and random, I tried to add the pointers in one pass, but i understood the solution|
 |  12/01/2026 |  😀  |Binary Search | Solved without help, i just forget the condition: `while left <= right`, when the list has only one element, without `<=` the result is wrong|
 |  13/01/2026 |  😀  |Search Insert Position | Solved without help.I just could solved this question because i draw i visualized that right + 1 is always the position to store the target value, but, in this case, right + 1 is equals to left, when the value was not found, so, returning right + 1 or left would produce the same result|
+|  13/01/2026 |  😀  |First Bad Version | Solved without help.It was pretty similar to `Search Insert Position` so, i just draw and see the logic of left and right, to return left at the end|
 <center>
 
 
