@@ -31,19 +31,19 @@ def download_problem_metadata(name_problem:str) -> json:
     except Exception as e:
         raise ValueError("The following error occurred when trying to convert response api to json {}",e)    
 
-def seed_metadatas_to_template(metadatas:json) -> None:
+def seed_metadata_to_template(metadata:json) -> None:
     if not os.path.isfile(TEMPLATE_URL):
         raise ValueError("The template file was not found")
     
-    if not metadatas or not metadatas["questionFrontendId"] or not metadatas["title"] or not metadatas["content"]:
-        raise ValueError("The metadatas received was not valid or some field is missing")
+    if not metadata or not metadata["questionFrontendId"] or not metadata["title"] or not metadata["content"]:
+        raise ValueError("The metadata received was not valid or some field is missing")
 
     with open(TEMPLATE_URL, "r", encoding="utf-8") as f:
         html = f.read()
 
-    html = html.replace("{{ questionFrontendId }}", metadatas["questionFrontendId"])
-    html = html.replace("{{ title }}", metadatas["title"])
-    html = html.replace("{{ content }}", metadatas["content"])
+    html = html.replace("{{ questionFrontendId }}", metadata["questionFrontendId"])
+    html = html.replace("{{ title }}", metadata["title"])
+    html = html.replace("{{ content }}", metadata["content"])
 
     with open(PATH_OUTPUT_HTML, "w", encoding="utf-8") as f:
         f.write(html)
@@ -91,17 +91,22 @@ def get_params() -> str:
     return ','.join(converted_params)
 
 def generate_boiler_plate(problem_name,link_problem):
-    folder = input("Save problem script at folder: ")
+    folder_name = input("Save problem script at folder: ")
 
-    while not os.path.isdir(folder):
+    while not os.path.isdir(folder_name):
         print("folder does not exists ....")
-        folder = input("Save problem script at folder: ")
+        isCreateFolder = input(f"Would you like to create the folder {folder_name}? s/y or n: ")
+        if isCreateFolder.lower() == "s" or isCreateFolder.lower() == "y":
+            os.makedirs(folder_name)
+            break
+
+        folder_name = input("Save problem script at folder: ")
     
     return_type = get_return_type()
 
     params = get_params()
 
-    createBoilerPlate(problem_name,link_problem,return_type,params,folder)
+    createBoilerPlate(problem_name,link_problem,return_type,params,folder_name)
 
 def start():
     link_problem = input("Link to problem: ")
@@ -109,8 +114,8 @@ def start():
 
     generate_boiler_plate(problem_name,link_problem)
 
-    problem_metadatas = download_problem_metadata(problem_name)
-    seed_metadatas_to_template(problem_metadatas)
+    problem_metadata = download_problem_metadata(problem_name)
+    seed_metadata_to_template(problem_metadata)
     generate_pdf(problem_name)
 
 

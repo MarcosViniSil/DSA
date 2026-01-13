@@ -48,6 +48,8 @@
 |  09/01/2026 |  😀  |Middle of the Linked List | Solved without help, and in this case, draw the slow and fast pointer was essential to visualize that slow pointer, at the end of the loop, containing the middle of the linked list |
 |  10/01/2026 |  😀  |Remove Nth Node From End of List | Solved without help, draw was the key to visualize the position to stop the pointer and the case when the sum result in negative, indicating that the position requested was the first|
 |  11/01/2026 |  😀  |Copy List with Random Pointer | Solved with help.I could understand the problem, and think in a solution using the hashmap to storage (address older node --> address new node) but i couldn't see the solution to storage all the nodes and after that, add the pointer next and random, I tried to add the pointers in one pass, but i understood the solution|
+|  12/01/2026 |  😀  |Binary Search | Solved without help, i just forget the condition: `while left <= right`, when the list has only one element, without `<=` the result is wrong|
+|  13/01/2026 |  😀  |Search Insert Position | Solved without help.I just could solved this question because i draw i visualized that right + 1 is always the position to store the target value, but, in this case, right + 1 is equals to left, when the value was not found, so, returning right + 1 or left would produce the same result|
 <center>
 
 
