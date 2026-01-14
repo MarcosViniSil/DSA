@@ -52,6 +52,7 @@
 |  13/01/2026 |  😀  |Search Insert Position | Solved without help.I just could solved this question because i draw i visualized that right + 1 is always the position to store the target value, but, in this case, right + 1 is equals to left, when the value was not found, so, returning right + 1 or left would produce the same result|
 |  13/01/2026 |  😀  |First Bad Version | Solved without help.It was pretty similar to `Search Insert Position` so, i just draw and see the logic of left and right, to return left at the end|
 |  14/01/2026 |  😀  |Valid Perfect Square | Solved without help.It was simple when drawing and visualize the idea of binary search, in this case, verifying if the current number time itself, is equals to number, if not, continue doing the binary search until find, or return false if this number was not found|
+|  14/01/2026 |  😀  |Search a 2D Matrix | Solved without help.My first approach was to do binary search throughout matrix, but i couldn't make anything work, so I change the approach to make a binary search throughout the rows, and discover the row that possible contained the target value, after this, applied the binary search to the whole column that may contain the value.The complexity is `O(log(m) + log(n))` that is the same as `O(log(m.n))` mathematically  |
 <center>
 
 
