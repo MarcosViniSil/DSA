@@ -53,6 +53,7 @@
 |  13/01/2026 |  😀  |First Bad Version | Solved without help.It was pretty similar to `Search Insert Position` so, i just draw and see the logic of left and right, to return left at the end|
 |  14/01/2026 |  😀  |Valid Perfect Square | Solved without help.It was simple when drawing and visualize the idea of binary search, in this case, verifying if the current number time itself, is equals to number, if not, continue doing the binary search until find, or return false if this number was not found|
 |  14/01/2026 |  😀  |Search a 2D Matrix | Solved without help.My first approach was to do binary search throughout matrix, but i couldn't make anything work, so I change the approach to make a binary search throughout the rows, and discover the row that possible contained the target value, after this, applied the binary search to the whole column that may contain the value.The complexity is `O(log(m) + log(n))` that is the same as `O(log(m.n))` mathematically  |
+|  15/01/2026 |  😀  |Find Minimum in Rotated Sorted Array | Solved with help. I couldn't see the solution: when `nums[mid] > nums[right]` this means that a min value is between `mid` and `right`, so, the left points is updated, and when  `nums[mid] <= nums[right]` this means that the min value is on the left side, between `left` and `mid`, so right is update to `right = mid`, the reason why right receive `mid` and not `mid - 1` is because `nums[mid]` may be the smallest value |
 <center>
 
 
