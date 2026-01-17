@@ -1,8 +1,8 @@
 # Commit conventions
 
-<div align="center"></div>
+<div align="center">
 
-| Convention        | Description |
+| Convention       | Description |
 | --------          | ------- |
 | SOLVED            | I was able to solve the problem    |
 | SOLVED_WITH_HELP  | I couldn't figured out how to solve, so i search for help     |
@@ -13,4 +13,8 @@
 | feat              | logic implementation about project in general|
 | fix               | adjust logic in some file|
 | chore             | added some file,comment or something that has nothing to do with implementation or problem|
+
+</div>
+
+
 
