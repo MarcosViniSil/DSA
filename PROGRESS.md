@@ -56,6 +56,8 @@
 |  15/01/2026 |  😀  |Find Minimum in Rotated Sorted Array | Solved with help. I couldn't see the solution: when `nums[mid] > nums[right]` this means that a min value is between `mid` and `right`, so, the left pointer is updated, and when  `nums[mid] <= nums[right]` this means that the min value is on the left side, between `left` and `mid`, so right is update to `right = mid`, the reason why right receive `mid` and not `mid - 1` is because `nums[mid]` may be the smallest value |
 |  16/01/2026 |  😀  |Search in Rotated Sorted Array | Solved with help. I couldn't think bout the solution using the  `Find Minimum in Rotated Sorted Array` to make a partition, of left and right minimum value, using the partition, verifying which part the value might be, after discover which part, applying the binary search.I couldn't see this solution, but I understood the main idea|
 |  16/01/2026 |  😀  |Koko Eating Bananas | Solved with help. I needed help to understand the idea of creating a range from 1 to `max_value(piles)`, but once I see this idea, i could apply binary search to find the minimum value of `k` that is less or equals than `h` and satisfies the condition of `"she can eat all the bananas within h hours"`|
+|  18/01/2026 |  😀  |Maximum Average Subarray I | This question was an excellent to understand the sliding window algorithm, and I could see another use, to compute the average|
+
 
 
 </div>
