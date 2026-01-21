@@ -58,6 +58,7 @@
 |  16/01/2026 |  😀  |Koko Eating Bananas | Solved with help. I needed help to understand the idea of creating a range from 1 to `max_value(piles)`, but once I see this idea, i could apply binary search to find the minimum value of `k` that is less or equals than `h` and satisfies the condition of `"she can eat all the bananas within h hours"`|
 |  18/01/2026 |  😀  |Maximum Average Subarray I | This question was an excellent to understand the sliding window algorithm, and I could see another use, to compute the average|
 |  20/01/2026 |  😀  |Max Consecutive Ones III | I had to watch some videos and read some solutions to understand the algorithm and why it works|
+|  21/01/2026 |  😀  |Longest Substring Without Repeating Characters | Solved with help. I had difficult to see that, using a hashmap, when i found a key that already exists, this mean that this is the first  duplicated value within that sequence, so i can move forward to the next value, from the first duplicated, repeating this process, maintain the max window would give the right answer |
 
 
 
