@@ -1,22 +1,21 @@
 #Link to problem: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 #Time complexity: O(n)
-#Space complexity: O(1)
+#Space complexity: O(n)
 
 from collections import defaultdict                       
 class Solution:
     def longest_substring_without_repeating_characters(self,s:str) -> int:
-        last_index = {}
+        frequencies = {}
         l = 0
-        max_substring = 0
-
+        longest_substring = 0
         for r in range(len(s)):
-            if s[r] in last_index and last_index[s[r]] >= l:
-                l = last_index[s[r]] + 1
+            if s[r] in frequencies and frequencies[s[r]] >= l:
+                l = frequencies[s[r]] + 1
+            
+            frequencies[s[r]] = r
+            longest_substring = max(longest_substring,r - l + 1)
 
-            last_index[s[r]] = r
-            max_substring = max(max_substring, r - l + 1)
-
-        return max_substring
+        return longest_substring
                                         
 solution = Solution()
 print(solution.longest_substring_without_repeating_characters("abcabcbb"))

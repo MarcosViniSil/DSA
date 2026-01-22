@@ -59,6 +59,7 @@
 |  18/01/2026 |  😀  |Maximum Average Subarray I | This question was an excellent to understand the sliding window algorithm, and I could see another use, to compute the average|
 |  20/01/2026 |  😀  |Max Consecutive Ones III | I had to watch some videos and read some solutions to understand the algorithm and why it works|
 |  21/01/2026 |  😀  |Longest Substring Without Repeating Characters | Solved with help. I had difficult to see that, using a hashmap, when i found a key that already exists, this mean that this is the first  duplicated value within that sequence, so i can move forward to the next value, from the first duplicated, repeating this process, maintain the max window would give the right answer |
+|  22/01/2026 |  😀  |Longest Repeating Character Replacement | Solved with help. I had difficult to see that i needed to calculate (right - left + 1)[window size] - max_frequency to count how many elements was swapped, so , if this sum is greater than k, this means that the window is invalid, so, the left pointer is incremented and the frequency at left is decremented until the window be valid again, and this process continue, always tracking the max longest by the window size|
 
 
 
