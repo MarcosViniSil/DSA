@@ -62,6 +62,7 @@
 |  22/01/2026 |  😀  |Longest Repeating Character Replacement | Solved with help. I had difficult to see that i needed to calculate (right - left + 1)[window size] - max_frequency to count how many elements was swapped, so , if this sum is greater than k, this means that the window is invalid, so, the left pointer is incremented and the frequency at left is decremented until the window be valid again, and this process continue, always tracking the max longest by the window size|
 |  23/01/2026 |  😀  |Minimum Size Subarray Sum | Solved with help. I had difficult to see the logic of update the min window, inside the loop `window_sum >= target` while the condition is true, because the main point is to find the min window, and this min window could be found while the condition is true  |
 |  24/01/2026 |  😀  |Permutation in String | Solved with help. I saw the idea of the fixed window, because the permutation length will always be the length of s1, if exists, so, if i create a fixed window of size s1 and verify is the frequency of each letter in the window is equals to the frequency of each letter in s1, I found the solution, if not, decrement the frequency at left in the s2, and increment the frequency at right in s2, repeating this process, if the permutation exists, will be found  |
+|  25/01/2026 |  😀  |Invert Binary Tree | Solved with help. I needed to see a solution to understand, i have difficult at recursion, i'm studying right now, it's hard for me but I'll learn, in this question, the solution makes sense, and i could understand  |
 
 
 
