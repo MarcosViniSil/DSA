@@ -1,6 +1,8 @@
 from .treeNodeDefinition import TreeNode
 
 def seed_binary_tree(values:list[int]) -> TreeNode:
+    if len(values) == 0:
+        return None
     root = TreeNode(values[0])
 
     i = 1
