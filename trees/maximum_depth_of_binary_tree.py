@@ -1,6 +1,6 @@
 #Link to problem: https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
 #Time complexity: O(n)
-#Space complexity: O(n)
+#Space complexity: O(h), where h is the height of the tree
                         
 from typing import Optional
 from help.treeNodeDefinition import TreeNode
