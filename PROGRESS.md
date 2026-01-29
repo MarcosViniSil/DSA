@@ -66,6 +66,7 @@
 |  26/01/2026 |  😀  |Maximum Depth of Binary Tree | Solved without help. In this question, I needed to draw the tree, and after that, try to visualize the logic to count each node, summing up to the depth of the tree, I have difficult at recursion but i could solve the question using the draw and make sense but i need to practice more, because for me, recursion is difficult, but I made progress 😀 |
 |  27/01/2026 |  😀  |Balanced Binary Tree | Solved with help. I needed help to understand that i was returning False, and this return wasn't propagated through the whole stack, so, ate the end, the response was None, rather than False, because false was lost in the stack |
 |  28/01/2026 |  😀  |Diameter of Binary Tree | Solved with help. I needed help to visualize how to compute the diameter of a tree, that was basically compute the left + right, and get the maximum value from it |
+|  29/01/2026 |  😀  |Same Tree | Solved without help. In this question, the use of breadth first search was more easy for me than recursive calls, and using breath first search was only compare the nodes and verifying if the nodes are equals, both in exists and value. |
 
 
 </div>
