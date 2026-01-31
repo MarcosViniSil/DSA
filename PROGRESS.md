@@ -67,6 +67,7 @@
 |  27/01/2026 |  😀  |Balanced Binary Tree | Solved with help. I needed help to understand that i was returning False, and this return wasn't propagated through the whole stack, so, ate the end, the response was None, rather than False, because false was lost in the stack |
 |  28/01/2026 |  😀  |Diameter of Binary Tree | Solved with help. I needed help to visualize how to compute the diameter of a tree, that was basically compute the left + right, and get the maximum value from it |
 |  29/01/2026 |  😀  |Same Tree | Solved without help. In this question, the use of breadth first search was more easy for me than recursive calls, and using breath first search was only compare the nodes and verifying if the nodes are equals, both in exists and value. |
+|  31/01/2026 |  😀  |Symmetric Tree | Solved with help. Using the solution from `same_tree` and `invert_binary_tree` the solution was just combine the two solutions too build the main idea. |
 
 
 </div>

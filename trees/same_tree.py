@@ -7,14 +7,7 @@ from help.treeNodeDefinition import TreeNode
 from help.seed_binary_tree import seed_binary_tree, print_binary_tree
                        
 class Solution:
-    def same_tree(self,p:Optional[TreeNode],q:Optional[TreeNode]) -> bool:
-        if p is None and q is not None:
-            return False
-        if p is None and q is not None:
-            return False   
-        if p is None and q is None:
-            return True
-        
+    def same_tree(self,p:Optional[TreeNode],q:Optional[TreeNode]) -> bool:        
         queue1 = []
         queue2 = []
         
