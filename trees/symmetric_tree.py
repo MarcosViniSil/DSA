@@ -1,6 +1,6 @@
 #Link to problem: https://leetcode.com/problems/symmetric-tree/description/
-#Time complexity:
-#Space complexity: 
+#Time complexity: O(n)
+#Space complexity: O(h), where h is the height of the tree
                         
 from typing import Optional
 from help.treeNodeDefinition import TreeNode

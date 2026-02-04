@@ -68,7 +68,7 @@
 |  28/01/2026 |  😀  |Diameter of Binary Tree | Solved with help. I needed help to visualize how to compute the diameter of a tree, that was basically compute the left + right, and get the maximum value from it |
 |  29/01/2026 |  😀  |Same Tree | Solved without help. In this question, the use of breadth first search was more easy for me than recursive calls, and using breath first search was only compare the nodes and verifying if the nodes are equals, both in exists and value. |
 |  31/01/2026 |  😀  |Symmetric Tree | Solved with help. Using the solution from `same_tree` and `invert_binary_tree` the solution was just combine the two solutions too build the main idea. |
-
+|  04/02/2026 |  😀  |Path Sum | Solved without help. This problem was solved by understanding the recursive calls in a tree problem, i could understand and it seems that i'm starting to understanding trees using recursions |
 
 </div>
 
