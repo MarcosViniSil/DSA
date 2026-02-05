@@ -69,6 +69,7 @@
 |  29/01/2026 |  😀  |Same Tree | Solved without help. In this question, the use of breadth first search was more easy for me than recursive calls, and using breath first search was only compare the nodes and verifying if the nodes are equals, both in exists and value. |
 |  31/01/2026 |  😀  |Symmetric Tree | Solved with help. Using the solution from `same_tree` and `invert_binary_tree` the solution was just combine the two solutions too build the main idea. |
 |  04/02/2026 |  😀  |Path Sum | Solved without help. This problem was solved by understanding the recursive calls in a tree problem, i could understand and it seems that i'm starting to understanding trees using recursions |
+|  05/02/2026 |  😀  |Subtree of Another Tree | Solved without help. The solution was like a enhanced from the problem `same tree`, because at the end, the target was to find a point in common between the root node,and the subtree root, and after that, verify if the tree from the root node is equals to the subtree, using the same logic as  `same tree`|
 
 </div>
 
