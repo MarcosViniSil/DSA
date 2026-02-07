@@ -71,6 +71,7 @@
 |  04/02/2026 |  😀  |Path Sum | Solved without help. This problem was solved by understanding the recursive calls in a tree problem, i could understand and it seems that i'm starting to understanding trees using recursions |
 |  05/02/2026 |  😀  |Subtree of Another Tree | Solved without help. The solution was like a enhanced from the problem `same tree`, because at the end, the target was to find a point in common between the root node,and the subtree root, and after that, verify if the tree from the root node is equals to the subtree, using the same logic as  `same tree`|
 |  06/02/2026 |  😀  |Binary Tree Level Order Traversal | Solved with help. I needed help to understand that, each time that the while loop is executed a new level of the tree is computed, so, when inside a loop, is necessary to add a new list to compute the nodes of that level.Another detail is the use of deque, rather then list, because the list has the complexity of `O(n)` to pop the elements, and the deque has the complexity of `O(1)` to remove from the left or the right |
+|  07/02/2026 |  😀  |Kth Smallest Element in a BST | Solved with help. The help that I needed was to visualize the use of in-order traversal method, and after that, to adapt to my logic, I needed to implement the iterative approach |
 
 </div>
 
