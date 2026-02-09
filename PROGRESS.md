@@ -73,6 +73,7 @@
 |  06/02/2026 |  😀  |Binary Tree Level Order Traversal | Solved with help. I needed help to understand that, each time that the while loop is executed a new level of the tree is computed, so, when inside a loop, is necessary to add a new list to compute the nodes of that level.Another detail is the use of deque, rather then list, because the list has the complexity of `O(n)` to pop the elements, and the deque has the complexity of `O(1)` to remove from the left or the right |
 |  07/02/2026 |  😀  |Kth Smallest Element in a BST | Solved with help. The help that I needed was to visualize the use of in-order traversal method, and after that, to adapt to my logic, I needed to implement the iterative approach |
 |  08/02/2026 |  😀  |Minimum Absolute Difference in BST | Solved with help. I needed the help to understand that, in-order algorithm applied to a BST return the idea of an array in ascending order, so after using the in-order algorithm is just treat like an array and compare the pairs and store the min value, and at the end, return the min value from this "array" |
+|  09/02/2026 |  😀  |Validate Binary Search Tree | Solved without help. In this question I use the idea of a binary search tree, when applied the in-order algorithm, the result is kind like a array sorted in ascending order, so, if the BST is valid, the rule `left_element < current_element` is always true, if not, the tree is invalid|
 
 </div>
 
