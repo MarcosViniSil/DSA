@@ -74,6 +74,7 @@
 |  07/02/2026 |  😀  |Kth Smallest Element in a BST | Solved with help. The help that I needed was to visualize the use of in-order traversal method, and after that, to adapt to my logic, I needed to implement the iterative approach |
 |  08/02/2026 |  😀  |Minimum Absolute Difference in BST | Solved with help. I needed the help to understand that, in-order algorithm applied to a BST return the idea of an array in ascending order, so after using the in-order algorithm is just treat like an array and compare the pairs and store the min value, and at the end, return the min value from this "array" |
 |  09/02/2026 |  😀  |Validate Binary Search Tree | Solved without help. In this question I use the idea of a binary search tree, when applied the in-order algorithm, the result is kind like a array sorted in ascending order, so, if the BST is valid, the rule `left_element < current_element` is always true, if not, the tree is invalid|
+|  12/02/2026 |  😀  |Lowest Common Ancestor of a Binary Search Tree | I needed help to understand the problem, but the main idea is: if root is between p and q i found the solution, because the root world be like the father of p and q, and another case is: if root is equal to p or q i found the solution as well, because one node can be your own descendant|
 
 </div>
 
